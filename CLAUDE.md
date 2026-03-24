@@ -38,6 +38,11 @@ All subfolders are required when adding a new topic.
 - All content is Markdown
 - Always load the full content of the source, not just a simple summary. Refine the format and clean up useless formatting or nonsensical content.
 
+## Fetching Web Content
+
+- For **x.com / Twitter URLs**: use the `x-tract` skill first. If it fails, fall back to `jina-reader`, then default methods (WebFetch, etc.).
+- For **all other web pages**: use the `jina-reader` skill to fetch content. If it fails, fall back to default methods (WebFetch, etc.).
+
 ## Git Workflow
 
 - Commit directly to `main` (no feature branches required)
