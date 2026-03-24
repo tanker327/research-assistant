@@ -18,6 +18,7 @@ Top mode search shows these dominate with thousands of likes/views. Many are pra
 - **@arceyul's 1-hour tutorial thread/video** (2.8K+ likes, 120K+ views): Full beginner guide from zero (no coding/terminal experience). Real projects, cases, and tips. Link to post: https://x.com/arceyul/status/2031515868375507276 (includes video).
 - **@godofprompt's Claude Code prompt for building apps** (792 likes, 114K+ views): "Steal my Claude Code prompt to plan and build any app from scratch with zero coding experience." Practical starter prompt. Link: https://x.com/godofprompt/status/2031787647056953454.
 - **Boris Cherny (@bcherny) creator workflow thread** (widely referenced, sparked 9K-12K like template virals): Parallel sessions + CLAUDE.md as "living rulebook" (add a rule every mistake). Key original. Link: https://x.com/bcherny/status/2007179832300581177.
+- **@PandaTalk8's comprehensive best practices guide** (928 likes, 249K views, Mar 2026): "从'能用'到'真的好用'" — 14-section deep dive covering CLAUDE.md hierarchy, Plan Mode, sub-agents, context management, Hooks, Git Worktree, MCP, IDE integration, and anti-patterns. Written in Chinese, combines official docs with hands-on lessons. Link: https://x.com/PandaTalk8/status/2035975664730575325.
 - Other high-engagement CLAUDE.md template shares (often 3K-12K likes): Summaries by @milesdeutscher, @heygurisingh, @NieceOfAnton, @svpino, and @arvidkahl. Search X for "CLAUDE.md template" or "Boris CLAUDE.md" for the latest copies.
 
 ### 3. In-Depth Articles & Guides (Most Shared Tutorials)
