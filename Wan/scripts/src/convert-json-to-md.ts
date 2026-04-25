@@ -473,12 +473,12 @@ async function main() {
 
   // Resolve paths relative to the project root (one level up from scripts/)
   const projectRoot = path.resolve(__dirname, "../..");
-  const origDir = path.join(projectRoot, "orignal");
+  const origDir = path.join(projectRoot, "original");
   const mdDir = path.join(projectRoot, "md");
   const assetDir = path.join(projectRoot, "asset");
 
   if (!fs.existsSync(origDir)) {
-    console.error(`Error: orignal/ directory not found at ${origDir}`);
+    console.error(`Error: original/ directory not found at ${origDir}`);
     process.exit(1);
   }
 

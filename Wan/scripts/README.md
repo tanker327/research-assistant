@@ -11,7 +11,7 @@ npm install
 
 ## JSON-to-Markdown Converter
 
-Converts structured JSON content files from `orignal/` into well-formatted Markdown files in `md/`, preserving the folder structure. Also downloads referenced images to `asset/`.
+Converts structured JSON content files from `original/` into well-formatted Markdown files in `md/`, preserving the folder structure. Also downloads referenced images to `asset/`.
 
 ### Usage
 
@@ -26,13 +26,13 @@ npm run convert:dry
 npm run convert:no-images
 
 # Convert a single file
-npx ts-node src/convert-json-to-md.ts --file "../orignal/2_成长战略/206_主动高认知负荷.json"
+npx ts-node src/convert-json-to-md.ts --file "../original/2_成长战略/206_主动高认知负荷.json"
 
 # Force overwrite existing md files
 npx ts-node src/convert-json-to-md.ts --force
 
 # Combine flags
-npx ts-node src/convert-json-to-md.ts --file "../orignal/1_基本世界观/101_叙事.json" --force
+npx ts-node src/convert-json-to-md.ts --file "../original/1_基本世界观/101_叙事.json" --force
 ```
 
 ### CLI Flags
@@ -41,12 +41,12 @@ npx ts-node src/convert-json-to-md.ts --file "../orignal/1_基本世界观/101_�
 |------|-------------|
 | `--dry-run` | Preview mode. Shows what would be converted without writing files. |
 | `--force` | Overwrite existing `.md` files. By default, existing files are skipped. |
-| `--file <path>` | Convert a single JSON file instead of scanning the entire `orignal/` directory. |
+| `--file <path>` | Convert a single JSON file instead of scanning the entire `original/` directory. |
 | `--no-images` | Skip image downloading. Only convert markdown. |
 
 ### How It Works
 
-1. Recursively scans `orignal/` for `.json` files
+1. Recursively scans `original/` for `.json` files
 2. Skips empty files (0 bytes or empty content array)
 3. Skips files that already have a corresponding `.md` in `md/` (unless `--force`)
 4. Parses the JSON structure and converts each content block to Markdown
